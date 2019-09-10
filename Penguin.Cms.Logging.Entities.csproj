@@ -26,10 +26,10 @@
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <WarningsAsErrors>NU1605, CS1591</WarningsAsErrors>
-    <DocumentationFile>Penguin.Authentication.OWA.xml</DocumentationFile>
+    <DocumentationFile>Penguin.Cms.Logging.Entities.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DebugType>full</DebugType>
-    <DocumentationFile>Penguin.Authentication.OWA.xml</DocumentationFile>
+    <DocumentationFile>Penguin.Cms.Logging.Entities.xml</DocumentationFile>
   </PropertyGroup>
 </Project>
