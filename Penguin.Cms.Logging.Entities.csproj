@@ -7,15 +7,19 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms.Logging.Entities</PackageProjectUrl>
     <PackageIconUrl>http://www.penguinms.com/client/images/pg.png</PackageIconUrl>
-    <Version>1.0.2</Version>
+    <Version>2.0.0</Version>
 	<IncludeSymbols>true</IncludeSymbols>    
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <Description>A collection of entities for use in the Penguin Logging system for tracking background processes</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Penguin.Entities" Version="1.0.9" />
-    <PackageReference Include="Penguin.Messaging.Logging" Version="2.0.6" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Penguin.Entities" Version="2.0.0" />
+    <PackageReference Include="Penguin.Messaging.Logging" Version="3.0.0" />
   </ItemGroup>
 
  <ItemGroup>

@@ -10,8 +10,6 @@ namespace Penguin.Cms.Logging.Entities
     /// </summary>
     public class LogEntry : AuditableEntity
     {
-        #region Properties
-
         /// <summary>
         /// Log entries are immutable so changes should never be audited
         /// </summary>
@@ -42,7 +40,5 @@ namespace Penguin.Cms.Logging.Entities
         /// The text value of the body of this log entry
         /// </summary>
         public string Value { get; set; }
-
-        #endregion Properties
     }
 }
