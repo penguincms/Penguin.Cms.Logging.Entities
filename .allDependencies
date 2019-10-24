@@ -1,0 +1,11 @@
+Penguin.Entities
+Penguin.Entities.Abstractions
+Penguin.Persistence.Abstractions
+Penguin.Reflection.Extensions
+Penguin.Extensions.String
+Penguin.Reflection.Abstractions
+Penguin.Messaging.Logging
+Penguin.Messaging.Abstractions
+Penguin.Messaging.Core
+Penguin.Debugging
+Penguin.Extensions.Exceptions

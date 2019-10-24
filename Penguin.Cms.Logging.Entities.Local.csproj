@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms.Logging.Entities</PackageProjectUrl>
+    <Version>2.0.0</Version>
+    <Description>A collection of entities for use in the Penguin Logging system for tracking background processes</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <ProjectReference Include="..\Penguin.Entities\Penguin.Entities.csproj" />
+    <ProjectReference Include="..\Penguin.Entities.Abstractions\Penguin.Entities.Abstractions.csproj" />
+    <ProjectReference Include="..\Penguin.Persistence.Abstractions\Penguin.Persistence.Abstractions.csproj" />
+    <ProjectReference Include="..\Penguin.Entities.Abstractions\Penguin.Entities.Abstractions.csproj" />
+    <ProjectReference Include="..\Penguin.Reflection.Extensions\Penguin.Reflection.Extensions.csproj" />
+    <ProjectReference Include="..\Penguin.Extensions.String\Penguin.Extensions.String.csproj" />
+    <ProjectReference Include="..\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.csproj" />
+    <ProjectReference Include="..\Penguin.Messaging.Logging\Penguin.Messaging.Logging.csproj" />
+    <ProjectReference Include="..\Penguin.Messaging.Abstractions\Penguin.Messaging.Abstractions.csproj" />
+    <ProjectReference Include="..\Penguin.Messaging.Core\Penguin.Messaging.Core.csproj" />
+    <ProjectReference Include="..\Penguin.Debugging\Penguin.Debugging.csproj" />
+    <ProjectReference Include="..\Penguin.Extensions.Exceptions\Penguin.Extensions.Exceptions.csproj" />
+    <ProjectReference Include="..\Penguin.Messaging.Abstractions\Penguin.Messaging.Abstractions.csproj" />
+  </ItemGroup>
+  <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
+</Project>
