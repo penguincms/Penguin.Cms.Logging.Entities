@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Penguin.Cms.Logging.Entities.Local</name>
+    </assembly>
+    <members>
+        <member name="T:Penguin.Cms.Logging.Entities.LogEntry">
+            <summary>
+            Represents an individual logged message
+            </summary>
+        </member>
+        <member name="P:Penguin.Cms.Logging.Entities.LogEntry.AuditLogChanges">
+            <summary>
+            Log entries are immutable so changes should never be audited
+            </summary>
+        </member>
+        <member name="P:Penguin.Cms.Logging.Entities.LogEntry.Caller">
+            <summary>
+            The Type.ToString of the object that requested the logger managing this entry
+            </summary>
+        </member>
+        <member name="P:Penguin.Cms.Logging.Entities.LogEntry.Level">
+            <summary>
+            The level that this message was logged at
+            </summary>
+        </member>
+        <member name="P:Penguin.Cms.Logging.Entities.LogEntry.Session">
+            <summary>
+            The string ID of the session for this logging entry
+            </summary>
+        </member>
+        <member name="P:Penguin.Cms.Logging.Entities.LogEntry.SessionStart">
+            <summary>
+            The time that this session was initialized
+            </summary>
+        </member>
+        <member name="P:Penguin.Cms.Logging.Entities.LogEntry.Value">
+            <summary>
+            The text value of the body of this log entry
+            </summary>
+        </member>
+    </members>
+</doc>

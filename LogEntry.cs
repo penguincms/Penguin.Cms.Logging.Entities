@@ -1,4 +1,4 @@
-﻿using Penguin.Entities;
+﻿using Penguin.Cms.Entities;
 using Penguin.Messaging.Logging;
 using Penguin.Persistence.Abstractions.Attributes.Validation;
 using System;
