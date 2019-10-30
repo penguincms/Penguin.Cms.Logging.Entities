@@ -4,14 +4,16 @@
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms.Logging.Entities</PackageProjectUrl>
     <Version>2.0.0</Version>
     <Description>A collection of entities for use in the Penguin Logging system for tracking background processes</Description>
+    <AssemblyName>Penguin.Cms.Logging.Entities</AssemblyName>
+    <RootNamespace>Penguin.Cms.Logging.Entities</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Penguin.Messaging.Logging" Version="3.0.1-T9M1HHH" />
-    <PackageReference Include="Penguin.Cms.Entities" Version="3.0.4-T9M1HHH" />
+    <PackageReference Include="Penguin.Messaging.Logging" Version="3.0.1-T9M2XAX" />
+    <PackageReference Include="Penguin.Cms.Entities" Version="3.0.4-T9M2XAX" />
   </ItemGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
