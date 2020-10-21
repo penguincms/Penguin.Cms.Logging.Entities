@@ -13,8 +13,8 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Penguin.Messaging.Logging" Version="5.0.1-TA2OIRX" />
-    <PackageReference Include="Penguin.Cms.Entities" Version="5.0.1-TA3REW0" />
+    <PackageReference Include="Penguin.Messaging.Logging" Version="5.0.1" />
+    <PackageReference Include="Penguin.Cms.Entities" Version="5.0.1" />
   </ItemGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
